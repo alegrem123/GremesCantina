@@ -67,8 +67,9 @@ export default function Header() {
           object-fit: contain;
           display: block;
           background: transparent;
-          mix-blend-mode: multiply;
-          filter: contrast(1.15);
+          mix-blend-mode: normal;
+          filter: none;
+          transform: none;
         }
         .nav-desktop {
           display: flex;
