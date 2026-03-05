@@ -42,7 +42,7 @@ export default function Header() {
           padding: 1.6rem 0;
         }
         .header-root.scrolled {
-          background: rgba(28, 22, 18, 0.97);
+          background: rgba(51, 40, 33, 0.94);
           backdrop-filter: blur(12px);
           padding: 1rem 0;
           box-shadow: 0 1px 0 rgba(201,169,110,0.15);
@@ -56,27 +56,19 @@ export default function Header() {
           justify-content: space-between;
         }
         .logo {
-          display: flex;
-          flex-direction: column;
-          gap: 0.05rem;
+          display: inline-flex;
+          align-items: center;
           text-decoration: none;
           cursor: pointer;
         }
-        .logo-main {
-          font-family: 'Playfair Display', serif;
-          font-size: 1.35rem;
-          font-weight: 500;
-          color: #F7F0E6;
-          letter-spacing: 0.06em;
-          line-height: 1;
-        }
-        .logo-sub {
-          font-family: 'Inter', sans-serif;
-          font-size: 0.55rem;
-          font-weight: 500;
-          letter-spacing: 0.3em;
-          text-transform: uppercase;
-          color: #C9A96E;
+        .logo-img {
+          width: auto;
+          height: 24px;
+          object-fit: contain;
+          display: block;
+          background: transparent;
+          mix-blend-mode: multiply;
+          filter: contrast(1.15);
         }
         .nav-desktop {
           display: flex;
@@ -144,7 +136,7 @@ export default function Header() {
         .mobile-menu {
           position: fixed;
           inset: 0;
-          background: rgba(28, 22, 18, 0.98);
+          background: rgba(51, 40, 33, 0.96);
           backdrop-filter: blur(20px);
           z-index: 99;
           display: flex;
@@ -193,9 +185,13 @@ export default function Header() {
               e.preventDefault();
               window.scrollTo({ top: 0, behavior: "smooth" });
             }}
+            aria-label="Torna all'inizio"
           >
-            <span className="logo-main">Cantina Gremes</span>
-            <span className="logo-sub">Trentino · Alto Adige</span>
+            <img
+              className="logo-img"
+              src="/logo-cantina.png"
+              alt="Logo Cantina Gremes"
+            />
           </a>
 
           <nav

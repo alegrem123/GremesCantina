@@ -82,7 +82,7 @@ export default function MasoPlotegher() {
           font-family: 'Playfair Display', serif;
           font-size: clamp(2rem, 3.5vw, 2.8rem);
           font-weight: 500;
-          color: #3D0D1C;
+          color: #5B2034;
           line-height: 1.15;
           margin-bottom: 1.8rem;
           letter-spacing: -0.01em;
@@ -97,7 +97,7 @@ export default function MasoPlotegher() {
           font-family: 'Inter', sans-serif;
           font-size: 0.9rem;
           font-weight: 300;
-          color: #3A2E28;
+          color: #4E4038;
           line-height: 1.9;
           margin-bottom: 1.2rem;
           letter-spacing: 0.01em;
@@ -114,7 +114,7 @@ export default function MasoPlotegher() {
           font-family: 'Playfair Display', serif;
           font-size: 1.9rem;
           font-weight: 500;
-          color: #5C1A2E;
+          color: #7A2D45;
           line-height: 1;
           margin-bottom: 0.35rem;
         }
@@ -145,7 +145,7 @@ export default function MasoPlotegher() {
           <div className="maso-visual">
             <img
               className="maso-img"
-              src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=900&q=85&auto=format&fit=crop"
+              src="/maso.jpg"
               alt="Maso Plotegher tra i vigneti trentini"
               loading="lazy"
             />

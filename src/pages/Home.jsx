@@ -15,16 +15,16 @@ export default function Home() {
         @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap');
 
         :root {
-          --burgundy: #5C1A2E;
-          --burgundy-deep: #3D0D1C;
-          --burgundy-light: #7D2842;
+          --burgundy: #7A2D45;
+          --burgundy-deep: #5B2034;
+          --burgundy-light: #9A4860;
           --champagne: #C9A96E;
           --champagne-light: #E8D5B0;
           --ivory: #F7F0E6;
           --ivory-warm: #F0E6D3;
           --sand: #DDD0B8;
-          --charcoal: #1C1612;
-          --charcoal-soft: #3A2E28;
+          --charcoal: #332821;
+          --charcoal-soft: #4E4038;
         }
 
         * { box-sizing: border-box; margin: 0; padding: 0; }

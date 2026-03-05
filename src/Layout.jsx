@@ -35,16 +35,16 @@ export default function Layout({ children, currentPageName }) {
         }
         .btn-champagne:hover {
           background: #C9A96E;
-          color: #3D0D1C;
+          color: #5B2034;
         }
         .btn-burgundy {
           display: inline-flex;
           align-items: center;
           gap: 0.5rem;
           padding: 0.85rem 2rem;
-          border: 1px solid #5C1A2E;
+          border: 1px solid #7A2D45;
           color: #F7F0E6;
-          background: #5C1A2E;
+          background: #7A2D45;
           font-family: 'Inter', sans-serif;
           font-size: 0.7rem;
           font-weight: 500;
@@ -55,8 +55,8 @@ export default function Layout({ children, currentPageName }) {
           text-decoration: none;
         }
         .btn-burgundy:hover {
-          background: #3D0D1C;
-          border-color: #3D0D1C;
+          background: #5B2034;
+          border-color: #5B2034;
         }
       `}</style>
       {children}

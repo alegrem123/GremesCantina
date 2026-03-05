@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import VinoDettaglio from "@/components/VinoDettglio";
 
 const BOTTLE_IMG =
-  "https://images.unsplash.com/photo-1474722883778-792e7990302f?w=500&q=85&auto=format&fit=crop";
+  "/vino.png";
 
 const vini = [
   {
@@ -436,7 +436,7 @@ export default function Collezione() {
           font-family: 'Playfair Display', serif;
           font-size: clamp(2rem, 3.5vw, 2.8rem);
           font-weight: 400;
-          color: #3D0D1C;
+          color: #5B2034;
           line-height: 1.2;
           margin-bottom: 1rem;
         }
@@ -471,8 +471,8 @@ export default function Collezione() {
         }
         .col-filter-btn:hover,
         .col-filter-btn.active {
-          border-color: #5C1A2E;
-          background: #5C1A2E;
+          border-color: #7A2D45;
+          background: #7A2D45;
           color: #F7F0E6;
         }
         .col-grid {
@@ -496,7 +496,7 @@ export default function Collezione() {
         .col-card-img-wrap {
           overflow: hidden;
           height: 300px;
-          background: #EDE3D4;
+          background: #FFFFFF;
           display: flex;
           align-items: center;
           justify-content: center;
@@ -505,11 +505,12 @@ export default function Collezione() {
         .col-card-img {
           height: 100%;
           width: 100%;
-          object-fit: cover;
-          transition: transform 0.7s cubic-bezier(0.16,1,0.3,1);
+          object-fit: contain;
+          transition: transform 0.35s ease;
+          transform-origin: center center;
         }
         .col-card:hover .col-card-img {
-          transform: scale(1.07);
+          transform: scale(1.03);
         }
         .col-card-tipo {
           position: absolute;
@@ -520,7 +521,7 @@ export default function Collezione() {
           font-weight: 600;
           letter-spacing: 0.2em;
           text-transform: uppercase;
-          color: #5C1A2E;
+          color: #7A2D45;
           background: rgba(232,213,176,0.9);
           padding: 0.3rem 0.7rem;
         }
@@ -540,7 +541,7 @@ export default function Collezione() {
           font-family: 'Playfair Display', serif;
           font-size: 1.2rem;
           font-weight: 500;
-          color: #3D0D1C;
+          color: #5B2034;
           margin-bottom: 0.25rem;
         }
         .col-card-annata {
@@ -568,7 +569,7 @@ export default function Collezione() {
           font-family: 'Playfair Display', serif;
           font-size: 1.1rem;
           font-weight: 500;
-          color: #5C1A2E;
+          color: #7A2D45;
         }
         .col-card-btn {
           font-family: 'Inter', sans-serif;
@@ -578,15 +579,15 @@ export default function Collezione() {
           text-transform: uppercase;
           padding: 0.55rem 1.2rem;
           border: 1px solid rgba(92,26,46,0.4);
-          color: #5C1A2E;
+          color: #7A2D45;
           background: transparent;
           cursor: pointer;
           transition: all 0.3s ease;
         }
         .col-card-btn:hover {
-          background: #5C1A2E;
+          background: #7A2D45;
           color: #F7F0E6;
-          border-color: #5C1A2E;
+          border-color: #7A2D45;
         }
         @media (max-width: 900px) {
           .col-grid { grid-template-columns: repeat(2, 1fr); }

@@ -52,7 +52,7 @@ export default function OwnerPhilosophy() {
           font-family: 'Playfair Display', serif;
           font-size: clamp(2rem, 3.5vw, 2.8rem);
           font-weight: 400;
-          color: #3D0D1C;
+          color: #5B2034;
           line-height: 1.2;
         }
         .op-grid {
@@ -74,7 +74,7 @@ export default function OwnerPhilosophy() {
           border: 1px solid rgba(201,169,110,0.3);
         }
         .op-card-dark {
-          background: #3D0D1C;
+          background: #5B2034;
         }
         .op-card-img-wrap {
           overflow: hidden;
@@ -110,7 +110,7 @@ export default function OwnerPhilosophy() {
           line-height: 1.2;
           margin-bottom: 1.2rem;
         }
-        .op-card-light .op-card-name { color: #3D0D1C; }
+        .op-card-light .op-card-name { color: #5B2034; }
         .op-card-dark .op-card-name { color: #F7F0E6; }
 
         .op-card-text {
@@ -131,7 +131,7 @@ export default function OwnerPhilosophy() {
           padding-top: 1.5rem;
           border-top: 1px solid rgba(201,169,110,0.25);
         }
-        .op-card-light .op-card-quote { color: #5C1A2E; }
+        .op-card-light .op-card-quote { color: #7A2D45; }
         .op-card-dark .op-card-quote { color: #E8D5B0; }
 
         @media (max-width: 768px) {
@@ -154,17 +154,17 @@ export default function OwnerPhilosophy() {
               <div className="op-card-img-wrap">
                 <img
                   className="op-card-img"
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=700&q=80&auto=format&fit=crop&facepad=3&face=1"
-                  alt="Marco Gremes, proprietario"
+                  src="/proprietario.jpg"
+                  alt="Francesco Gremes, proprietario"
                   loading="lazy"
                 />
               </div>
               <div className="op-card-body">
                 <p className="op-card-role">Proprietario &amp; Vignaiolo</p>
-                <h3 className="op-card-name">Marco Gremes</h3>
+                <h3 className="op-card-name">Francesco Gremes</h3>
                 <p className="op-card-text">
                   Tre generazioni di viticultura trentina convergono nella
-                  visione di Marco: riportare il territorio al centro, riducendo
+                  visione di Francesco: riportare il territorio al centro, riducendo
                   ogni intervento in vigna all'essenziale. Una filosofia di
                   ascolto, non di imposizione.
                 </p>
@@ -179,7 +179,7 @@ export default function OwnerPhilosophy() {
               <div className="op-card-img-wrap">
                 <img
                   className="op-card-img"
-                  src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=700&q=80&auto=format&fit=crop"
+                  src="/vinificazione.jpg"
                   alt="Filosofia del vino Gremes"
                   loading="lazy"
                 />

@@ -1,5 +1,9 @@
 import React, { useEffect, useRef } from "react";
 
+const HERO_BG_IMAGE = "/hero1.jpg";
+// Restore image:
+// const HERO_BG_IMAGE = "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1800&q=85&auto=format&fit=crop";
+
 export default function Hero() {
   const titleRef = useRef(null);
   const subRef = useRef(null);
@@ -48,7 +52,6 @@ export default function Hero() {
         .hero-bg {
           position: absolute;
           inset: 0;
-          background-image: url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1800&q=85&auto=format&fit=crop');
           background-size: cover;
           background-position: center 40%;
           transform: scale(1.04);
@@ -161,12 +164,12 @@ export default function Hero() {
       <section className="hero-root" role="banner">
         <div
           className="hero-bg"
+          style={{ backgroundImage: `url(${HERO_BG_IMAGE})` }}
           ref={(el) => {
             if (el) {
               const img = new Image();
               img.onload = () => el.classList.add("loaded");
-              img.src =
-                "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1800&q=85&auto=format&fit=crop";
+              img.src = HERO_BG_IMAGE;
             }
           }}
         />

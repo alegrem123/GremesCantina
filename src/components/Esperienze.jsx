@@ -66,7 +66,7 @@ export default function Esperienze() {
     <>
       <style>{`
         .esp-root {
-          background: #1C1612;
+          background: #332821;
           padding: 7rem 2rem;
         }
         .esp-inner {
@@ -111,7 +111,7 @@ export default function Esperienze() {
           background: rgba(201,169,110,0.15);
         }
         .esp-card {
-          background: #1C1612;
+          background: #332821;
           padding: 3rem 2.5rem;
           border: 1px solid rgba(201,169,110,0.08);
           opacity: 0;
@@ -120,7 +120,7 @@ export default function Esperienze() {
           cursor: default;
         }
         .esp-card:hover {
-          background: #241a15;
+          background: #3A2C24;
         }
         .esp-icon {
           font-size: 1.3rem;

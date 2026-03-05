@@ -10,8 +10,8 @@ const parcelle = [
     cy: 250,
     rx: 70,
     ry: 55,
-    color: "#5C1A2E",
-    hoverColor: "#7D2842",
+    color: "#7A2D45",
+    hoverColor: "#9A4860",
     info: {
       luogo: "Maso Plotegher – Trento",
       altitudine: "540–600 m s.l.m.",
@@ -78,25 +78,6 @@ const parcelle = [
       note: "Suolo vulcanico ricco di minerali. Conferisce al Gewürz la sua firma aromatica intensa.",
     },
   },
-  {
-    id: "vignaalta",
-    label: "Vigna Alta",
-    tipo: "vigna",
-    cx: 300,
-    cy: 390,
-    rx: 55,
-    ry: 40,
-    color: "#5C4A1A",
-    hoverColor: "#7D6422",
-    info: {
-      luogo: "Vigna Alta – Maso Plotegher (TN)",
-      altitudine: "620–640 m s.l.m.",
-      suolo: "Ghiaia calcarea fine su substrato morenico",
-      vitigni: "Marzemino",
-      esposizione: "Sud-sudest",
-      note: "La parcella più alta del maso. Marzemino leggero, floreale, d'altura.",
-    },
-  },
 ];
 
 // Tracciato SVG decorativo per fiumi/strade
@@ -104,7 +85,6 @@ const ROADS = [
   "M 100 300 Q 280 320 390 250 Q 500 180 580 130",
   "M 390 250 Q 480 300 620 360",
   "M 200 160 Q 290 200 390 250",
-  "M 390 250 Q 340 320 300 390",
 ];
 
 export default function MappaParcelle() {
@@ -454,9 +434,9 @@ export default function MappaParcelle() {
           <div className="mappa-legend-item">
             <div
               className="mappa-legend-dot"
-              style={{ background: "#5C1A2E" }}
+              style={{ background: "#7A2D45" }}
             />
-            Maso Gremes
+            Maso Plotegher
           </div>
           <div className="mappa-legend-item">
             <div
@@ -478,13 +458,6 @@ export default function MappaParcelle() {
               style={{ background: "#1A3F5C" }}
             />
             I Dossi
-          </div>
-          <div className="mappa-legend-item">
-            <div
-              className="mappa-legend-dot"
-              style={{ background: "#5C4A1A" }}
-            />
-            Vigna Alta
           </div>
         </div>
         <p className="mappa-hint">

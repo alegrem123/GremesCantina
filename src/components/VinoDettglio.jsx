@@ -1,7 +1,7 @@
 import React from "react";
 
 const BOTTLE_IMG =
-  "https://images.unsplash.com/photo-1474722883778-792e7990302f?w=500&q=85&auto=format&fit=crop";
+  "/vino.png";
 
 export default function VinoDettaglio({ vino, onClose }) {
   if (!vino) return null;
@@ -62,7 +62,7 @@ export default function VinoDettaglio({ vino, onClose }) {
         .vd-bottle-wrap {
           position: sticky;
           top: 5rem;
-          background: #241a15;
+          background: #3A2C24;
           padding: 3rem 2rem;
           display: flex;
           flex-direction: column;
@@ -87,7 +87,7 @@ export default function VinoDettaglio({ vino, onClose }) {
         .vd-buy-btn {
           width: 100%;
           padding: 0.9rem;
-          background: #5C1A2E;
+          background: #7A2D45;
           border: none;
           color: #F7F0E6;
           font-family: 'Inter', sans-serif;
@@ -98,7 +98,7 @@ export default function VinoDettaglio({ vino, onClose }) {
           cursor: pointer;
           transition: background 0.3s ease;
         }
-        .vd-buy-btn:hover { background: #7D2842; }
+        .vd-buy-btn:hover { background: #9A4860; }
 
         .vd-info { }
         .vd-tipo-badge {
@@ -316,7 +316,7 @@ export default function VinoDettaglio({ vino, onClose }) {
         }
         .vd-media-slot {
           aspect-ratio: 4/3;
-          background: #241a15;
+          background: #3A2C24;
           border: 1px dashed rgba(201,169,110,0.2);
           display: flex;
           flex-direction: column;

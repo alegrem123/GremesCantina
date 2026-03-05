@@ -16,7 +16,7 @@ export default function Footer() {
     <>
       <style>{`
         .footer-root {
-          background: #3D0D1C;
+          background: #5B2034;
           padding: 0;
         }
         .footer-top {
@@ -118,8 +118,8 @@ export default function Footer() {
         .footer-newsletter-input::placeholder { color: rgba(247,240,230,0.3); }
         .footer-newsletter-input:focus { border-color: rgba(201,169,110,0.5); }
         .footer-newsletter-btn {
-          background: #5C1A2E;
-          border: 1px solid #5C1A2E;
+          background: #7A2D45;
+          border: 1px solid #7A2D45;
           padding: 0.75rem 1.5rem;
           font-family: 'Inter', sans-serif;
           font-size: 0.65rem;
@@ -130,7 +130,7 @@ export default function Footer() {
           cursor: pointer;
           transition: background 0.3s ease;
         }
-        .footer-newsletter-btn:hover { background: #7D2842; border-color: #7D2842; }
+        .footer-newsletter-btn:hover { background: #9A4860; border-color: #9A4860; }
         .footer-subscribed {
           font-family: 'Inter', sans-serif;
           font-size: 0.82rem;

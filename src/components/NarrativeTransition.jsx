@@ -28,7 +28,7 @@ export default function NarrativeTransition() {
     <>
       <style>{`
         .narrative-root {
-          background: #1C1612;
+          background: #332821;
           padding: 6rem 2rem;
           text-align: center;
         }
