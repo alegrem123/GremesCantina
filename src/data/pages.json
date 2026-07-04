@@ -1,0 +1,43 @@
+{
+  "story": {
+    "title": "La Nostra Storia",
+    "heroImage": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&h=600&fit=crop",
+    "content": "Cantina Gremes nasce dalla passione di generazioni di viticoltori che, dal lontano 1892, coltivano le viti sulle pendici della Valle di Non, nel cuore del Trentino. La nostra storia è intreccata con quella del territorio, con le sue rocce vulcaniche, il suo microclima unico e la determinazione del popolo trentino nel preservare l'eccellenza viticola.\n\nFondatori della nostra cantina erano visionaries che compresero il potenziale straordinario di Maso Plotegher. Nel corso dei decenni, abbiamo mantenuto fermo il nostro impegno: produrre vini che raccontano il territorio, che esprimono l'autenticità della Valle di Non e che rispecchiano il rigore della tradizione trentina.\n\nOgni bottiglia di Cantina Gremes è il risultato di un lavoro meticoloso: dalla cura ossessiva dei vigneti alla scelta consapevole dei metodi di vinificazione. Non inseguiamo mode, bensì perseguiamo l'eccellenza attraverso il rispetto del territorio e la continuità con i nostri antenati.\n\nOggi, con il nostro team di enologi e viticultor appassionati, continuiamo questa tradizione nel ventunesimo secolo, innovando dove necessario ma rimanendo sempre fedeli ai valori fondamentali: qualità, autenticità e amore per il nostro territorio."
+  },
+  "territory": {
+    "title": "Il Nostro Territorio",
+    "heroImage": "https://images.unsplash.com/photo-1569718212b8-0fb88f5e6888?w=1200&h=600&fit=crop",
+    "content": "La Valle di Non è uno dei tesori nascosti del Trentino, un territorio dove la natura disegna paesaggi straordinari e il clima crea condizioni ideali per la viticoltura d'eccellenza. Situata tra i 400 e i 550 metri di altitudine, la nostra regione beneficia di un'escursione termica considerevole che permette alle uve di sviluppare complessità aromatica e bilanciamento perfetto tra zuccheri e acidi.\n\nIl suolo di Maso Plotegher è caratterizzato da rocce vulcaniche di origine antichissima, che conferiscono ai nostri vini una marcata mineralità e una salinità caratteristica. Questa pedologia unica non può essere replicata altrove, ed è uno dei principali fattori che rendono i nostri vini inconfondibili.\n\nL'escursione termica tra il giorno e la notte regala un'accelerazione della maturazione metabolica durante il giorno e un rallentamento benefico durante la notte, preservando l'acidità naturale. I venti che scendono dalle Dolomiti ad ovest aiutano a mantenere i vigneti sani, riducendo la pressione di malattie fungine.\n\nLa tradizione agricola della Valle di Non risale a millenni fa. Gli antichi romani riconoscevano il valore della regione per la viticoltura, e nei secoli successivi, monaci e agricoltori costruirono i terrazzamenti che vediamo ancora oggi. Oggi, continuiamo a coltivare questo territorio con lo stesso rispetto e dedizione dimostrata dai nostri predecessori."
+  },
+  "degustazioni": {
+    "title": "Esperienze di Degustazione",
+    "heroImage": "https://images.unsplash.com/photo-1510812431401-41d2bd2e3bb6?w=1200&h=600&fit=crop",
+    "headline": "Scopri i Nostri Vini Attraverso Esperienze Immersive",
+    "description": "Offriamo un'ampia gamma di esperienze di degustazione, dalla visita guidata attraverso i nostri vigneti al abbinamento elaborato vini-cibo nella nostra cantina storica. Ogni esperienza è personalizzata per approfondire la conoscenza del territorio e dei nostri vini.",
+    "experiences": [
+      {
+        "name": "Degustazione Classica",
+        "duration": "90 minuti",
+        "description": "Un'introduzione elegante ai nostri tre vini flagship. Degusta il Teroldego Riserva, il Bianco di Gremes e lo Spumante Brut in un ambiente intimo, con spiegazioni dettagliate del terroir e delle tecniche di vinificazione. Perfetto per chi desidera scoprire l'essenza di Cantina Gremes."
+      },
+      {
+        "name": "Tour dei Vigneti e Degustazione",
+        "duration": "2.5 ore",
+        "description": "Una passeggiata attraverso le nostre parcelle di Maso Plotegher, dove scoprirai la bellezza del paesaggio trentino e imparerai la viticultura sostenibile. Termina con una degustazione nella cantina storica, accompagnata da formaggi e specialità locali."
+      },
+      {
+        "name": "Abbinamento Vini e Cibo",
+        "duration": "3 ore",
+        "description": "Un'esperienza culinaria completa dove ogni piatto è studiato appositamente per valorizzare uno dei nostri vini. Lavoriamo con chef locali per creare un menu che racconta la storia della Valle di Non attraverso sapori e bevande."
+      },
+      {
+        "name": "Masterclass con l'Enologo",
+        "duration": "2 ore",
+        "description": "Per gli appassionati seri di vino, una sessione approfondita con il nostro enologo capo. Scopri i segreti della vinificazione, l'arte della selezione delle uve e come leggiamo il territorio attraverso i nostri vini. Include degustazione di vini rari e fuori produzione."
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Galleria"
+  }
+}

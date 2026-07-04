@@ -1,0 +1,22 @@
+{
+  "site": {
+    "name": "Cantina Gremes",
+    "description": "Cantina artigianale nella Valle di Non, Trentino. Produciamo vini eccellenti con tradizione, terroir e passione da oltre 130 anni.",
+    "url": "https://gremes.com",
+    "email": "info@gremes.com",
+    "phone": "+39 0463 83756"
+  },
+  "shop": {
+    "vivino": "https://vivino.com/cantina-gremes",
+    "tannico": "https://tannico.com/cantina-gremes"
+  },
+  "address": {
+    "street": "Maso Plotegher, Valle di Non",
+    "city": "Trentino, TN",
+    "country": "Italia"
+  },
+  "social": {
+    "instagram": "https://instagram.com/cantinagremes",
+    "facebook": "https://facebook.com/cantinagremes"
+  }
+}
