@@ -6,6 +6,11 @@
     "email": "info@gremes.com",
     "phone": "+39 0463 83756"
   },
+  "contact": {
+    "address": "Maso Plotegher, Valle di Non\n39010 Trentino, TN\nItalia",
+    "phone": "+39 0463 83756",
+    "email": "info@gremes.com"
+  },
   "shop": {
     "vivino": "https://vivino.com/cantina-gremes",
     "tannico": "https://tannico.com/cantina-gremes"
