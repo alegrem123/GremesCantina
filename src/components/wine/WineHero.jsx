@@ -1,5 +1,5 @@
-import { Section } from '@/components/ui/section';
-import { Container } from '@/components/ui/container';
+import Section from '@/components/common/Section';
+import Container from '@/components/common/Container';
 import { Badge } from '@/components/ui/badge';
 
 export default function WineHero({ wine }) {

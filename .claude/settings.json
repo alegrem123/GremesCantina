@@ -5,7 +5,26 @@
       "Bash(git checkout *)",
       "Bash(npx create-next-app@latest --typescript false --tailwind true --app true --eslint true --import-alias false --skip-git true --project-name . --no-git)",
       "Bash(npm install *)",
-      "Bash(npm run *)"
+      "Bash(npm run *)",
+      "Bash(grep -E \"\\\\.\\(jsx|js|tsx|ts\\)$\")",
+      "Bash(mkdir -p /Users/alessandrogremes/GremesCantina/GremesCantina/src/app/vini /Users/alessandrogremes/GremesCantina/GremesCantina/src/app/vini/\\\\[slug\\\\])",
+      "Bash(rm -rf /Users/alessandrogremes/GremesCantina/GremesCantina/src/app/vini/\\\\\\\\[slug\\\\\\\\])",
+      "Bash(xargs ls -la)",
+      "Bash(curl -s http://localhost:3000/vini)",
+      "Bash(curl -s http://localhost:3000/vini/teroldego-riserva-2020)",
+      "Bash(pkill -f \"npm run dev\")",
+      "Bash(cat /tmp/dev.log | tail -100)",
+      "Read(//private/tmp/**)",
+      "Read(//tmp/**)",
+      "Bash(curl -s http://localhost:3000/test)",
+      "Bash(curl -s http://localhost:3000/)",
+      "Bash(mkdir -p /Users/alessandrogremes/GremesCantina/GremesCantina/app/vini/\\\\[slug\\\\])",
+      "Bash(npm view *)"
+    ],
+    "additionalDirectories": [
+      "/Users/alessandrogremes/GremesCantina/GremesCantina/src/app/vini",
+      "/Users/alessandrogremes/GremesCantina/GremesCantina/src/app/vini/\\[slug\\]",
+      "/Users/alessandrogremes/GremesCantina/GremesCantina/app/vini"
     ]
   }
 }

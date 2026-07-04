@@ -1,8 +1,8 @@
 'use client';
 
 import { useState } from 'react';
-import { Section } from '@/components/ui/section';
-import { Container } from '@/components/ui/container';
+import Section from '@/components/common/Section';
+import Container from '@/components/common/Container';
 
 export default function TechnicalDetails({ technical, servingTemp }) {
   const [isOpen, setIsOpen] = useState(false);

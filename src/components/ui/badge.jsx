@@ -1,4 +1,4 @@
-export default function Badge({ children, variant = "default", className = "" }) {
+function Badge({ children, variant = "default", className = "" }) {
   const baseClasses = "inline-block px-3 py-1 text-xs font-medium rounded-sm";
 
   const variantClasses = {
@@ -10,3 +10,6 @@ export default function Badge({ children, variant = "default", className = "" })
 
   return <div className={combinedClasses}>{children}</div>;
 }
+
+export { Badge };
+export default Badge;

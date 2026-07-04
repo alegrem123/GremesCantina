@@ -1,8 +1,8 @@
 'use client';
 
-import { Section } from '@/components/ui/section';
-import { Container } from '@/components/ui/container';
-import { RevealOnScroll } from '@/components/ui/reveal-on-scroll';
+import Section from '@/components/common/Section';
+import Container from '@/components/common/Container';
+import { RevealOnScroll } from '@/components/animations/RevealOnScroll';
 import { Card } from '@/components/ui/card';
 
 const pairingImages = [
