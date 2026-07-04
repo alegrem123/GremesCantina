@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/vini/layout,_N_T_/vini/[slug]/layout,_N_T_/vini/[slug]/page,_N_T_/vini/spumante-brut-nv"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/vini/$d$slug/__PAGE__",
+    "/vini/$d$slug",
+    "/vini",
+    "/_index",
+    "/_head"
+  ]
+}

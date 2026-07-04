@@ -1,3 +1,4 @@
+import { generateOrganizationSchema } from '@/lib/seo';
 import Hero from '@/components/sections/Hero';
 import BrandIntro from '@/components/sections/BrandIntro';
 import WinesSection from '@/components/sections/WinesSection';
@@ -23,8 +24,14 @@ export const metadata = {
 };
 
 export default function Home() {
+  const organizationSchema = generateOrganizationSchema();
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+      />
       <Hero />
       <BrandIntro />
       <WinesSection />

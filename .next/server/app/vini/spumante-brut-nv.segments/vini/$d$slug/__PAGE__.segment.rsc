@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/05-c3ty_6dwfk.js","/_next/static/chunks/14mrh2-p_w84d.js","/_next/static/chunks/2l08p733ybbnl.js","/_next/static/chunks/35soc9c3vqtbf.js"],""]
+3:I[97367,["/_next/static/chunks/05-c3ty_6dwfk.js","/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","section",null,{"className":"py-section-mobile md:py-section-desktop bg-nero text-avorio py-24","children":["$","div",null,{"className":"max-w-5xl mx-auto px-6 md:px-8 ","children":[["$","h1",null,{"className":"font-playfair text-4xl font-bold mb-4","children":"Vino non trovato"}],["$","p",null,{"className":"text-lg text-avorio opacity-80 mb-8","children":"Il vino che stai cercando non è disponibile nel nostro catalogo."}],["$","$L2",null,{"href":"/vini","className":"text-oro hover:underline","children":"Torna ai nostri vini →"}]]}]}],[["$","script","script-0",{"src":"/_next/static/chunks/2l08p733ybbnl.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/35soc9c3vqtbf.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"9NE6rnM2w7iWeO9amR4RW"}
+5:null

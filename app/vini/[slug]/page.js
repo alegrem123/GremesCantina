@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
+import { generateWineProductSchema } from '../../../src/lib/seo';
 import {
   Breadcrumb,
   BreadcrumbList,
@@ -104,8 +105,14 @@ export default function WineDetailPage({ params }) {
     );
   }
 
+  const wineProductSchema = generateWineProductSchema(wine);
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(wineProductSchema) }}
+      />
       {/* Breadcrumb */}
       <Section className="bg-beige">
         <Container>
@@ -220,10 +227,8 @@ export default function WineDetailPage({ params }) {
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              {relatedWines.map((relatedWine, index) => (
-                <RevealOnScroll key={relatedWine.slug} delay={index * 0.1}>
-                  <WineCard wine={relatedWine} />
-                </RevealOnScroll>
+              {relatedWines.map((relatedWine) => (
+                <WineCard key={relatedWine.slug} wine={relatedWine} />
               ))}
             </div>
           </Container>
